@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  mainViewController.swift
 //  instagrams
 //
 //  Created by Josh Gebbeken on 2/28/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class mainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
