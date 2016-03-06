@@ -41,7 +41,7 @@ Here's a walkthrough of implemented user stories:
 
 
 for some reason my image won't show here is what I'm putting in:
-img src='http://i.imgur.com/q7jVIiO.gif' title='Video Walkthrough' width='' alt='Video Walkthrough'   <-- tags are missing show it was placed on there exactly how it should be.
+img src='http://i.imgur.com/q7jVIiO.gif' title='Video Walkthrough' width='' alt='Video Walkthrough'   <-- rest of the img link ends are missing to show you the code. 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
