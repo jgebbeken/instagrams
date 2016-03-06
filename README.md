@@ -39,6 +39,9 @@ Here's a walkthrough of implemented user stories:
 
 <img src='http://i.imgur.com/q7jVIiO.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+for some reason my image won't show here is what I'm putting in:
+**<img src='http://i.imgur.com/q7jVIiO.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />**
+
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
