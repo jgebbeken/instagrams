@@ -47,13 +47,14 @@ class RegisterViewController: UIViewController {
                 print(error.localizedDescription)
                 
                 if error.code == 202 {
-                    let alertControllerUser = UIAlertController(title: "Error", message: "Username already taken!", preferredStyle: UIAlertControllerStyle.Alert)
-                    alertControllerUser.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.Default, handler: nil))
+                    let alert = UIAlertController (title: "Error", message: "This username is already taken!", preferredStyle: UIAlertControllerStyle.Alert)
+                    alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
+                    self.presentViewController(alert, animated: true, completion: nil)
                 }
                 else if error.code == 203 {
-                    let alertControllerEmail = UIAlertController(title: "Error", message: "Email already taken!", preferredStyle: UIAlertControllerStyle.Alert)
-                    
-                    alertControllerEmail.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.Default, handler: nil))
+                    let alert = UIAlertController (title: "Error", message: "There is another user with this email address!", preferredStyle: UIAlertControllerStyle.Alert)
+                    alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil))
+                    self.presentViewController(alert, animated: true, completion: nil)
                 }
             } else {
                 print("User Registered successfully")

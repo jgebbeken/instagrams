@@ -42,6 +42,13 @@ class LoginViewController: UIViewController {
        
     }
     
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(true)
+        
+        txtPassword.text = ""
+        txtUsername.text = ""
+    }
+    
 
     
     @IBAction func btnSignIn(sender: AnyObject) {
