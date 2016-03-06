@@ -37,7 +37,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/q7jVIiO.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='i.imgur.com/q7jVIiO.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 for some reason my image won't show here is what I'm putting in:
 img src='http://i.imgur.com/q7jVIiO.gif' title='Video Walkthrough' width='' alt='Video Walkthrough'   <-- tags are missing show it was placed on there exactly how it should be.
